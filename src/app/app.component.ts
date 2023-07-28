@@ -1,5 +1,5 @@
 import { Component, ViewChild } from "@angular/core";
-import { CropperComponent } from "angular-cropperjs";
+import { CropperComponent } from '../../projects/angular-cropperjs/src/lib/cropper/cropper.component';
 
 @Component({
     selector: "app-root",

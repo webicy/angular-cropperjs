@@ -1,12 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CropperComponent } from './cropper/cropper.component';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 @NgModule({
     imports: [
         CommonModule
     ],
-    declarations: [CropperComponent],
-    exports: [CropperComponent]
+    declarations: [],
+    exports: []
 })
 export class AngularCropperjsModule { }

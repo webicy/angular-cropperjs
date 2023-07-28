@@ -10,6 +10,7 @@ import {
     OnDestroy,
 } from "@angular/core";
 import Cropper from "cropperjs";
+import { CommonModule } from '@angular/common';
 
 export interface ImageCropperSetting {
     width: number;
@@ -25,6 +26,8 @@ export interface ImageCropperResult {
 
 @Component({
     selector: "angular-cropper",
+    standalone: true,
+    imports: [CommonModule],
     templateUrl: "./cropper.component.html",
     styleUrls: ["./cropper.component.css"],
     encapsulation: ViewEncapsulation.None,
